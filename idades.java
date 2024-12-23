@@ -1,5 +1,3 @@
-package curso_programacao;
-
 import java.util.Locale;
 import java.util.Scanner;
 
@@ -25,9 +23,8 @@ public class idades {
 		nome2 = sc.nextLine();
 		System.out.print("Idade: ");
 		idade2 = sc.nextInt();
-		
-		soma = idade1 + idade2;
-		media = soma / 2;
+	
+		media = (double)(idade1 + idade2) / 2.0;
 		
 		System.out.println("A idade media de " + nome1 + " e " + nome2 + " eh de " + String.format("%.1f", media) + " anos ");
 		
